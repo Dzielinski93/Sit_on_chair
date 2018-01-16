@@ -195,6 +195,10 @@ position: relative;
   margin-bottom: -4px;
 }
 /*section menu */
+.menu_column{
+  width: 33.333%;
+  float: left;
+}
 .frame{
   height: 311px;
   width: 252px;
@@ -258,4 +262,27 @@ position: relative;
   font-size: 25px;
   text-align: center;
   margin-top: 20px;
+}
+.circle_price{
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  border: 1px solid #C4C4C4;
+  position: absolute;
+  right: 23%;
+  top: 71px;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 19px;
+  }
+
+.pln_msc{
+  font-size: 10px;
+  position: absolute;
+  top: 83px;
+  right: 39px;
+}
+
+.sup{
+  font-size: 10px;
 }
