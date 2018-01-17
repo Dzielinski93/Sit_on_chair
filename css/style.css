@@ -54,7 +54,7 @@ header{
   font-size: 12px;
 }
  b{
-   color: #2AC9AD;
+   color: #27c7ab;
  }
 
  /*slider*/
@@ -65,7 +65,7 @@ header{
 .slider_column1, .slider_column4{
   width: 5%;
   font-size: 75px;
-  color: #2AC9AD;
+  color: #27c7ab;
   text-decoration: none;
   font-weight: 300;
 }
@@ -79,7 +79,7 @@ header{
 }
 .arrow_right, .arrow_left{
   margin-top: 155px;
-  color: #2AC9AD;
+  color: #27c7ab;
   font-weight: lighter;
 }
 .arrow_right{
@@ -113,7 +113,7 @@ header{
 
 .slider_button {
   font-size: 20px;
-  background-color: #2AC9AD;
+  background-color: #27c7ab;
   width: 190px;
   height: 40px;
   border-radius: 4px;
@@ -184,7 +184,7 @@ position: relative;
 
 .stripe{
   height: 4px;
-  background-color: #2AC9AD;
+  background-color: #27c7ab;
   width: 140px;
   margin: 5px 0 5px 0;
   float: left;
@@ -195,21 +195,38 @@ position: relative;
   margin-bottom: -4px;
 }
 /*section menu */
+.menu{
+  height: 600px;
+}
 .menu_column{
   width: 33.333%;
   float: left;
 }
+
+.menu_column:hover .tab {
+  background-color: #27c7ab;
+}
+
+.menu_column:hover .small_frame {
+  background-color: white;
+  color: #27c7ab;
+}
+
+.menu_column:hover .frame .tab .circle_white{
+  background-color: #27c7ab;
+  border: 2px solid #27c7ab;
+}
+
 .frame{
   height: 311px;
   width: 252px;
 }
 
 .frame .tab{
-  width: 233px;
-  height: 265px;
+  height: 455px;
   border: 2px solid #C4C4C4;
   position: relative;
-  margin: 50px 10px 10px 10px;
+  margin: 50px -55px 10px 10px;
 }
 
 
@@ -251,14 +268,15 @@ position: relative;
 .small_frame{
   height: 33px;
   width: 133px;
-  background-color: #2AC9AD;
+  background-color: #27c7ab;
   position: absolute;
-  right: 50px;
+  right: 78px;
   bottom: 20px;
-  padding: 11px;
+  padding: 6px;
+  font-size: 18px;
 }
 .tabel_title{
-  color: #2AC9AD;
+  color: #27c7ab;
   font-size: 25px;
   text-align: center;
   margin-top: 20px;
@@ -269,11 +287,14 @@ position: relative;
   border-radius: 50%;
   border: 1px solid #C4C4C4;
   position: absolute;
-  right: 23%;
-  top: 71px;
+  right: 29%;
+  top: 90px;
   font-size: 50px;
   text-align: center;
   padding-top: 19px;
+  color: #C4C4C4;
+  font-weight: 700;
+
   }
 
 .pln_msc{
@@ -285,4 +306,154 @@ position: relative;
 
 .sup{
   font-size: 10px;
+}
+.offer1, .offer2, .offer3{
+  text-align: center;
+  margin-top: 200px;
+  font-size: 20px;
+  color: #757272;
+  line-height: 30px;
+}
+
+.offer1 p:first-of-type{
+  background-color: #C4C4C4;
+}
+.offer1 p:last-of-type{
+  background-color: #e2dbdb;
+}
+
+.offer2 p:nth-child(2n){
+  background-color: #e2dbdb;
+}
+
+.offer3 p:nth-child(2n+1){
+  background-color: #C4C4C4;
+}
+.sup{
+  margin-top: 2px;
+}
+/*formularz*/
+.contact_form_input {
+  float: left;
+  width: 60.666%;
+  margin-left: 10px;
+  padding-top: 10px;
+}
+
+input, textarea {
+  font-family: inherit;
+  font-size: 16px;
+  width: 585px;
+  display: inline-block;
+  margin-bottom: 25px;
+}
+
+input, textarea, .checkbox {
+  border: 1px solid #27c7ab;
+  border-radius: 1px;
+  font-size: 24px;
+  padding: 10px;
+}
+
+textarea {
+  height: 195px;
+  resize: none;
+}
+
+input {
+  height: 65px;
+}
+
+.checkbox {
+  height: 48px;
+  width: 48px;
+  justify-content: center;
+  vertical-align: middle;
+  float: left;
+  padding: 0;
+  margin-right: 10px;
+}
+
+.submit_button {
+  width: 340px;
+  height: 70px;
+  color: #fff;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.checkbox img {
+  width: 45px;
+  height: auto;
+  margin: 5px auto;
+}
+
+input[type=submit] {
+  color: white;
+  width: 345px;
+  height: auto;
+  background-color: #27c7ab;
+  margin: auto;
+
+}
+
+.terms-acception {
+  float: right;
+  width: 33.333%;;
+  position: relative;
+}
+
+.terms-acception p {
+  margin: 0;
+  font-size: 20px;
+}
+
+.contact-picture {
+  position: relative;
+  left: 45px;
+  margin: 0 auto;
+}
+
+.terms-accept-form {
+  margin: 20px auto;
+  width: 340px;
+}
+
+.terms-accept-form::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.contact_form .checkbox {
+  float: left;
+}
+
+/*stopka*/
+
+.terms-accept-form p, .footer_cp, .footer-logo {
+  color: #888;
+}
+
+.footer_cp {
+  float: left;
+  font-size: 12px;
+}
+
+.footer_logo {
+  float: right;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-left: 65px;
+}
+
+
+
+.footer_socialmedia {
+  float: right;
+  padding-top: 5px;
+}
+
+.footer_socialmedia a {
+  margin-left: 7px;
 }
