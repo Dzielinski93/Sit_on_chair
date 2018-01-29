@@ -18,14 +18,14 @@
 }
 
 .first_img {
-  background-image: url(../images/box1_img.jpg);
+  background-image: url(../../images/box1_img.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .second_img {
-  background-image: url(../images/box2_img.jpg);
+  background-image: url(../../images/box2_img.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
