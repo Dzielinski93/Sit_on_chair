@@ -1,0 +1,55 @@
+/*sekcja z trzema obrazkami*/
+
+.tree_img_section {
+  background-color: white;
+  width: 100%;
+}
+
+.column3 {
+  width: 33.333%;
+  float: left;
+  padding: 10px;
+}
+
+.first_img, .second_img {
+  height: 225px;
+  border: 1px solid #E3E3E3;
+  padding: 170px 20px 20px 25px;
+}
+
+.first_img {
+  background-image: url(../images/box1_img.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.second_img {
+  background-image: url(../images/box2_img.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.third_text{
+    border: 1px solid #E3E3E3;
+    padding: 25px 0px 15px 25px;
+}
+.third_text p {
+  line-height: 20px;
+  padding: 5px;
+  font-size: 13px;
+  color: #AAA9AA;
+}
+
+.stripe {
+  height: 4px;
+  background-color: #27c7ab;
+  width: 140px;
+  margin: 5px 0 5px 0;
+  float: left;
+}
+
+.sign {
+  font-size: 15px;
+  margin-bottom: -4px;
+}

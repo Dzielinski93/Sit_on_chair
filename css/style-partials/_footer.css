@@ -1,0 +1,26 @@
+/*stopka*/
+
+.terms-accept-form p, .footer_cp, .footer-logo {
+  color: #888;
+}
+
+.footer_cp {
+  float: left;
+  font-size: 12px;
+}
+
+.footer_logo {
+  float: right;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-left: 65px;
+}
+
+.footer_socialmedia {
+  float: right;
+  padding-top: 5px;
+}
+
+.footer_socialmedia a {
+  margin-left: 7px;
+}

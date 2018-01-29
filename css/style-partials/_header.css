@@ -1,0 +1,32 @@
+/*nagłówek*/
+
+header {
+  background-color: black;
+  color: white;
+}
+
+.up_logo {
+  float: left;
+  color: white;
+  line-height: 50px;
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.up_menu li {
+  float: right;
+  margin: 0 10px 0 10px;
+  list-style: none;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 50px;
+}
+
+.up_menu li:hover {
+  color: #27c7ab;
+}
+
+b {
+  color: #27c7ab;
+}
