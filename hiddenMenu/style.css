@@ -1,0 +1,32 @@
+.close, .open {
+  width: 120px;
+  height: 130px;
+  font-size: 12px;
+  position:relative;
+}
+.open:before{
+  content: '';
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+  border-bottom: 10px solid black;
+
+  left: 40%;
+  bottom: 130px;
+}
+
+
+.hiddenMenu {
+  list-style: none;
+  background: black;
+  height: 100%;
+  width: 100%;
+  padding: 20px 0px 0px 15px;
+}
+.hiddenMenu a{
+  text-decoration: none;
+  color: white;
+  line-height: 35px;
+}

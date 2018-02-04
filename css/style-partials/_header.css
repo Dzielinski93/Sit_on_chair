@@ -3,6 +3,7 @@
 header {
   background-color: black;
   color: white;
+  z-index: 0
 }
 
 .up_logo {
@@ -13,7 +14,7 @@ header {
   font-size: 13px;
 }
 
-.up_menu li {
+.up_menu  li {
   float: right;
   margin: 0 10px 0 10px;
   list-style: none;
@@ -21,6 +22,8 @@ header {
   font-weight: 700;
   font-size: 14px;
   line-height: 50px;
+  position: relative;
+  z-index: 0;
 }
 
 .up_menu li:hover {
@@ -30,3 +33,36 @@ header {
 b {
   color: #27c7ab;
 }
+/*.close, .open {
+  width: 120px;
+  height: 130px;
+  font-size: 12px;
+  position:absolute;
+  z-index: 1;
+}
+.open:before{
+  content: '';
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+  border-bottom: 10px solid black;
+
+  left: 40%;
+  bottom: 130px;
+}
+
+
+.hiddenMenu {
+  list-style: none;
+  background: black;
+  height: 100%;
+  width: 100%;
+  padding: 20px 0px 0px 15px;
+}
+.hiddenMenu a{
+  text-decoration: none;
+  color: white;
+  line-height: 35px;
+}*/

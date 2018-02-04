@@ -15,6 +15,7 @@
   height: 225px;
   border: 1px solid #E3E3E3;
   padding: 170px 20px 20px 25px;
+  cursor: pointer;
 }
 
 .first_img {
